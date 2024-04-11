@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tracer_study_fix/screens/splash_screen.dart';
+import 'package:tracer_study_fix/Screens/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
