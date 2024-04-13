@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tracer_study_fix/Screens/splash_screen.dart';
+import 'package:tracer_study_fix/theme.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
+        colorScheme: ColorScheme.fromSeed(seedColor: blue1),
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,

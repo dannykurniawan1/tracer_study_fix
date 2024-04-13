@@ -13,7 +13,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
-    Timer(Duration(seconds: 5), () {
+    Timer(Duration(seconds: 3), () {
       Navigator.pushReplacement(
           context, MaterialPageRoute(builder: (context) => OnboardingView()));
     });
@@ -24,8 +24,7 @@ class _SplashScreenState extends State<SplashScreen> {
     return Scaffold(
       body: Stack(
         children: [
-          Image.asset('assets/images/splash screen.png',),
-          Text('Splash Screen'),
+          Image.asset('assets/images/splash screen.png',)
         ],
       ),
     );
